@@ -12,7 +12,7 @@ describe('Verify API Github Repository', ()=>{
                 url: availableData.APIURL,
                 headers: {
 
-                            "Authorization" : "Bearer "+ availableData.AuthToken
+                            "Authorization" : "Bearer "+ availableData.AuthToken+availableData.Key
 
                           }
             })           
