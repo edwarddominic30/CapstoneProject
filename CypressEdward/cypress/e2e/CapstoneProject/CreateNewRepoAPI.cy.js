@@ -17,7 +17,7 @@ describe('Verify API Github Repository', ()=>{
             },               
             headers: {
 
-                        "Authorization" : "Bearer "+ availableData.AuthToken,
+                         "Authorization" : "Bearer "+ availableData.AuthToken+availableData.Key,
                         "Content-Type": "application/json"
                       }
         })      
