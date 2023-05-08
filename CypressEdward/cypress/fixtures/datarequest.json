@@ -1,0 +1,42 @@
+{
+    "CapstoneURL" : "https://admin-demo.nopcommerce.com/login",
+    "Email" : "admin@yourstore.com",
+    "Password" : "admin",
+
+
+    "APIURL": "https://api.github.com/user/repos",
+    "AuthToken" : "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",
+    "RepositoryName" : "APINewCapstoneRepo",
+    "OwnerName": "edwarddominic30",
+
+
+    "Firstname": "Edward",
+    "Lastname": "Dominic",
+    "Pass": "User@123",
+    "DOB": "03/30/1995",
+    "Company": "Collabera",
+    "Comment": "New User Added",
+
+
+
+
+    "ManufacturerName": "Lenovo",
+    "ManufacturerDesc": "Lenovo’s technology transforms the way we live and work. Sign up for the latest on our groundbreaking products and solutions.{ctrl}A{ctrl}B",
+    "ManuImage": "LenovoImage.jpg",
+
+    "UpdatedManufacturerName": " (Beijing)",
+    "UpdatedManuDesc": "{enter}This is Updated Manufacturer Description{ctrl}A{ctrl}I"
+
+    
+
+
+
+
+
+
+   
+
+
+    
+    
+    }

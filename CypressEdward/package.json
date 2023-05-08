@@ -1,0 +1,51 @@
+{
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "cypress": "^12.11.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "name": "cypresslearning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "executeTestOnChromeHeaded": "npx cypress run --spec .\\cypress\\e2e\\April_20\\OrangeHRM_Screenshot.cy.js --browser chrome --headed",
+    "executeMidTermAssignmentheaded": "npx cypress run --spec .\\cypress\\e2e\\Mid_Term_Assignment\\Assignment.cy.js --browser chrome --headed",
+    "executeMidTermAssignmentheadless": "npx cypress run --spec .\\cypress\\e2e\\Mid_Term_Assignment\\Assignment.cy.js --browser chrome --headless",
+    "executeActivityHeaded": "npx cypress run --spec .\\cypress\\e2e\\April_26\\LoginPage.cy.js --browser chrome --headed",
+
+
+    
+
+    "exeAddManuChromeHeaded": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\AddNewManufacturer.cy.js --browser chrome --headed",
+    "exeAddManuEdgeHeaded": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\AddNewManufacturer.cy.js --browser edge --headed",
+    "exeAddManuHeadless": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\AddNewManufacturer.cy.js --headless",
+
+
+    "exeEditManuEdgeHeaded": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\EditNewManufacturer.cy.js --browser edge --headed",
+    "exeEditManuHeadless": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\EditNewManufacturer.cy.js --headless",
+
+    "exeDeleteManuChromeHeaded": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\DeleteNewManufacturer.cy.js --browser chrome --headed",
+    "exeDeleteManuEdgeHeaded": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\DeleteNewManufacturer.cy.js --browser edge --headed",
+    "exeDeleteManuHeadless": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\DeleteNewManufacturer.cy.js  --headless",
+
+    "exeSearchProdRevChromeHeaded": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\SearchProductReview.cy.js --browser chrome --headed",
+    "exeSearchProdRevHeadless": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\SearchProductReview.cy.js --headless",
+
+
+    "exeCreateRepoAPIChromeHeaded": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\CreateNewRepoAPI.cy.js --browser chrome --headed",
+    "exeCreateRepoAPIHeadless": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\CreateNewRepoAPI.cy.js --headless",
+
+    "exeListRepoAPIChromeHeaded": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\ListRepoAPI.cy.js --browser chrome --headed",
+    "exeListRepoAPIHeadless": "npx cypress run --spec .\\cypress\\e2e\\CapstoneProject\\ListRepoAPI.cy.js --headless"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
